@@ -5,6 +5,8 @@ fun main() {
     println(age)
     println(height)
     println(fakih)
+    var price: Long = 900000
+    println(price)
 
 
 }
