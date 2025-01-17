@@ -13,6 +13,8 @@ fun main() {
 
     println(alamat)
 
-    var fullname: String = firstname + " " + lastname
+    var fullname: String = "$firstname $lastname"
     println(fullname)
+    var deskripsi: String = "$fullname length= ${fullname.length}"
+    println(deskripsi)
 }
